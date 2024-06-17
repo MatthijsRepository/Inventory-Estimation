@@ -23,10 +23,15 @@ This concludes the workings of the simulation. The user can specify the length o
 The results the model returns are of the following form.
 
 Subscription volume of :                                                    8 units each 30 days
+
 Average wait time for delivery with subscription:                           1.7 days
+
 Average wait time for delivery with subscription if no stock is on-hand:    10.8 days
+
 Total percentage of deliveries that can be delivered immediately:           84.0%
+
 Fraction of days NGO has surplus stock:                                     7.58 out of 10 days
+
 Average surplus stock NGO has:                                              5.609 units
 
 Wait time between deliveries using normal method:                           21 days
@@ -48,12 +53,19 @@ To run this model, the user needs to have python 3.6 or higher installed on thei
 Simulation specifications are stored in the text file simulation variables.txt. This file looks as follows:
 
 simulation_time: 1460
+
 num_simulations: 40
+
 periods: 2, 1.5, 4.5, 4.5, 3, 3, 4.5, 4
+
 weights: 3, 2, 3, 2, 3, 3, 4, 5
+
 deviations: 7, 7, 21, 18, 7, 7, 28, 7
+
 delivery_time: 21
+
 sub_period: 30
+
 plot_results: True
 
 Simulation_time specifies the length of a single simulation in days.
